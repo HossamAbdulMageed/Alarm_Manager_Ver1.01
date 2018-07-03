@@ -1,0 +1,33 @@
+#include "GPIO.h"
+#include "GPIO_Cfg.h"
+const GPIO_CfgType GPIO_ConfigParam [GPIO_GROUPS_NUMBER] =
+{
+    {
+        0x05,1<<1,
+        0,0,0,
+        0xFF,
+        0x00,0xFF,0x00,
+        0x00,0x00,0x00,
+        0xFF,
+        0
+    },
+    {
+        0x05,1<<2,
+        0,0,0,
+        0xFF,
+        0x00,0xFF,0x00,
+        0x00,0x00,0x00,
+        0xFF,
+        0
+    },
+    {
+        0x05,1<<3,
+        0,0,0,
+        0xFF,
+        0x00,0xFF,0x00,
+        0x00,0x00,0x00,
+        0xFF,
+        0
+    }
+};
+
